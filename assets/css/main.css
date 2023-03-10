@@ -1635,7 +1635,9 @@ article:last-child {
 
 .image img {
 	display: block;
-	width: 100%;
+	width: 98%;
+	margin: auto;
+	padding-top: 5px;
 	height: 300px;
 }
 
@@ -1647,7 +1649,7 @@ article:last-child {
 
 .image.featured {
 	display: block;
-	width: 100%;
+	width: 98%;
 	margin: 0 0 2em 0;
 }
 
