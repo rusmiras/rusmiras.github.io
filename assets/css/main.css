@@ -1731,10 +1731,6 @@ button.large,
 	padding: 0.5em 1em;
 }
 
-.description {
-	height: 450px;
-}
-
 #contact{
 	display: flex;
 }
@@ -2207,12 +2203,12 @@ body>article {
 	#aboutMe {
 		padding-left: 80px;
 	}
+	
 }
 
 @media screen and (max-width: 1280px) {
 
 	/* Basic */
-
 	body {
 		font-size: 11pt;
 	}
@@ -2253,11 +2249,18 @@ body>article {
 }
 
 /* Medium */
+.description{
+	height: fit-content;
+}
 
+@media screen and (min-width: 700px) {
+	.description{
+		height: 420px;
+	}
+}
 @media screen and (max-width: 980px) {
 
 	/* Articles */
-
 	#top {
 		text-align: center;
 		padding: 5em 0;
