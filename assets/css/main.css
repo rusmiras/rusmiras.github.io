@@ -1735,6 +1735,15 @@ button.large,
 	height: 450px;
 }
 
+#contact{
+	display: flex;
+}
+
+.row.contact{
+	width: max-content;
+	justify-content: center;
+}
+
 input[type="button"].alt,
 input[type="submit"].alt,
 input[type="reset"].alt,
