@@ -139,6 +139,12 @@ sup {
 	font-size: 0.8em;
 }
 
+.username{
+	font-size: 14px;
+	padding: 0;
+	margin-top: 0 !important;
+}
+
 blockquote {
 	border-left: solid 0.75em #eee;
 	padding: 1em 0 1em 1.5em;
