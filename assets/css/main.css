@@ -267,7 +267,11 @@ footer>p {
 	.container.medium {
 		width: 720px;
 	}
-
+	
+	.username{
+		font-size: 11.5px;
+		margin-top: 0;
+	}
 }
 
 @media screen and (max-width: 980px) {
@@ -539,7 +543,7 @@ footer>p {
 }
 
 @media screen and (max-width: 1680px) {
-
+	
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -1644,13 +1648,13 @@ article:last-child {
 	width: 98%;
 	margin: auto;
 	padding-top: 5px;
-	height: 300px;
+	height: 280px;
 }
 
 .image.fit {
 	display: block;
 	width: 100%;
-	height: 300px;
+	height: 280px;
 }
 
 .image.featured {
@@ -1737,6 +1741,7 @@ button.large,
 .button.demo {
 	font-size: 1em;
 	padding: 0.5em 1em;
+	max-width: 250px;
 }
 
 #contact{
@@ -2263,7 +2268,7 @@ body>article {
 
 @media screen and (min-width: 700px) {
 	.description{
-		height: 420px;
+		height: 330px;
 	}
 }
 @media screen and (max-width: 980px) {
@@ -2382,7 +2387,7 @@ body>article {
 	/* Box */
 
 	.box {
-		padding: 30px 20px 30px 20px;
+		padding: 30px 18px 30px 18px;
 		margin: 0 0 20px 0 !important;
 	}
 
