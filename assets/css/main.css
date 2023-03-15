@@ -2270,6 +2270,9 @@ body>article {
 	.description{
 		height: 330px;
 	}
+	.description1{
+		height: 410px;
+	}
 }
 @media screen and (max-width: 980px) {
 
