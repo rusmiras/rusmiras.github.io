@@ -1651,6 +1651,10 @@ article:last-child {
 	height: 280px;
 }
 
+.profile{
+	width: 100% !important;
+}
+
 .image.fit {
 	display: block;
 	width: 100%;
@@ -2216,7 +2220,9 @@ body>article {
 	#aboutMe {
 		padding-left: 80px;
 	}
-	
+	.profile{
+		width: fit-content !important;
+	}
 }
 
 @media screen and (max-width: 1280px) {
@@ -2273,6 +2279,9 @@ body>article {
 	.description1{
 		height: 410px;
 	}
+	.profile{
+		width: fit-content !important;
+	}
 }
 @media screen and (max-width: 980px) {
 
@@ -2293,7 +2302,6 @@ body>article {
 @media screen and (max-width: 736px) {
 
 	/* Basic */
-
 	body {
 		padding-top: 44px;
 	}
@@ -2484,5 +2492,5 @@ body>article {
 	#copyright li:first-child {
 		margin-top: 0;
 	}
-
+	
 }
